@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: rates_raw
+    description: >
+      This source is exchange rate data for specific currencies pulled in from open-exchange-rate API
+    tables:
+      - name: open-exchange-raw-currency
+      - name: open-exchange-raw-rate
